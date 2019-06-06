@@ -1,0 +1,22 @@
+{
+  "name": "wdio-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/praveenprasannan/wdio-docker.git",
+  "author": "Praveen",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "webdriverio": "^5.9.6"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.9.6",
+    "@wdio/local-runner": "^5.9.6",
+    "@wdio/mocha-framework": "^5.9.4",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.9.6",
+    "chromedriver": "2.46.0",
+    "wdio-chromedriver-service": "^5.0.1"
+  }
+}
+

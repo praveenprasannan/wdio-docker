@@ -5,6 +5,9 @@
   "repository": "https://github.com/praveenprasannan/wdio-docker.git",
   "author": "Praveen",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
   "dependencies": {
     "chai": "^4.2.0",
     "webdriverio": "^5.9.6"
